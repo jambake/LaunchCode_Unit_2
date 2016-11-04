@@ -1,0 +1,17 @@
+Python -
+
+'dictionary' {("", "" ), ("", "")...} - each item in list has a key to identify it
+'list' ["", "",...] - items are in a specific location (index)
+'tuple' ("", "",...) - adding multiple items to one key
+
+if(...):
+  ->...
+elif(..):
+  ->...
+else:
+  ->...
+
+'boolean' - 'True' or 'False'
+'and' - java's &&
+'or' - java's ||
+'None' - java's null

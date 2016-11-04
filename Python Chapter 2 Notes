@@ -1,0 +1,75 @@
+Python - Online Book
+
+"In Python, everything is an OBJECT"
+
+Classify OBJECTS: Classes or Data Types
+
+'type' function
+
+'integers' (no decimal - whole number)
+floating point (class = 'float')
+
+'strings' are surrounded by single/double/triple quotes
+  double - quoting something (even ints and floats)
+  triple - message that uses multiple lines
+
+NO COMMAS in long numbers
+
+Changing TYPES (type conversion) 3 IMPORTANT DATA TYPES:
+  int()
+  float()
+  str()
+
+type() ~ function provides data type of object
+
+value/object interchangeable
+class/type = interchangeable
+
+single/double/triple quoting numbers makes them a str
+
+double quotes inside single/triple quotes PRINT the double quotes
+
+COMMAS treat ints/floats as separate values
+-------------------------------------------------------------------------------
+NAMES for objects or values are called 'variables'
+
+NAMES are like sticky notes
+
+Assignment Statement - 'name = value'
+ '=' - Assignment Operator
+ '==' - equal
+
+namespace        |        objectspace
+
+Legal Names - begin with a letter or '_' (can contain numbers, but cannot use Python reserved names i.e. 'if')
+
+Variable names can NEVER contain 'spaces'
+
+Python KEYWORDS:
+and 	as 	assert 	break 	class 	continue
+def 	del 	elif 	else 	except 	exec
+finally 	for 	from 	global 	if 	import
+in 	is 	lambda 	nonlocal 	not 	or
+pass 	raise 	return 	try 	while 	with
+yield 	True 	False 	None
+(CANNOT be used s VARIABLES)
+-------------------------------------------------------------------------------
+
+len('________') = length of a string
+
+EXPRESSIONS (+, *, /, -, etc...) can be used on the righthand side of an ASSIGNMENT statement
+
+EXPRESSIONS are composed of both OPERATORS and OPERANDS
+*Operators are special tokens that represent computations like addition, multiplication and division.
+The values the operator works on are called operands.*
+
+EXPONENT = **
+// = integer division (no decimal)
+% = remainder of devision ('modulus')
+
+An expression is a combination of values, variables, operators, and calls to functions.
+-------------------------------------------------------------------------------
+'input' function - prompts user for a value that will be assigned to provided object 'n'
+n = input("Where do you live?")
+*All output types from the 'input' function are type 'str'*
+Use a type function to convert the result to desired type

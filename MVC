@@ -1,0 +1,9 @@
+Model View Controller (MVC)
+
+  Separates out the application into three different parts:
+    (allows for easier debugging and re-use of code)
+
+    MODEL = the data and how its stored (i.e. databases)
+    VIEW = the output of the application (i.e. templates)
+    CONTROLLER = takes requests from the VIEW, handles requests appropriately
+                 and decides what to do with the input as it sends it to the MODEL
